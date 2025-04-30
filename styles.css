@@ -53,56 +53,58 @@
     }
 }
 
-.frame{
-    /* max-height: 80vh; */
-    max-width: 90%;
-}
+@media screen and (max-width: 1080px) {
+    .frame{
+        /* max-height: 80vh; */
+        max-width: 90%;
+    }
 
-#strip{
-    text-align: center;
-}
+    #strip{
+        text-align: center;
+    }
 
-.frame-box{
-    display: inline-block;
-    margin-bottom: 20px;
-    
-}
+    .frame-box{
+        display: inline-block;
+        margin-bottom: 20px;
+        
+    }
 
-#main{
-    text-align: center;
-}
+    #main{
+        text-align: center;
+    }
 
-#logo{
-    width: 90%;
-    display: block;
-    margin: 200px auto 20px auto;
-}
+    #logo{
+        width: 90%;
+        display: block;
+        margin: 200px auto 20px auto;
+    }
 
-#logo-nav{
-    max-width: 400px;
-}
+    #logo-nav{
+        max-width: 400px;
+    }
 
-#navbar{
-    max-width: 100%;
-    display: inline-block;
-    /* background-color: blue; */
-    margin: 50px 0px 100px 0px;
-    line-height: 50px;
-    vertical-align: middle;
-}
+    #navbar{
+        max-width: 100%;
+        display: inline-block;
+        /* background-color: blue; */
+        margin: 50px 0px 100px 0px;
+        line-height: 50px;
+        vertical-align: middle;
+    }
 
-#menu{
-    display: inline-block;
-    height:100%;
-}
+    #menu{
+        display: inline-block;
+        height:100%;
+    }
 
-#menu a {
-    color: #6891db;
-    padding: 0px 20px;
-    font-size: 48px;
-    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
-}
+    #menu a {
+        color: #6891db;
+        padding: 0px 20px;
+        font-size: 48px;
+        font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    }
 
-#page{
-    text-align: center;
+    #page{
+        text-align: center;
+    }
 }
