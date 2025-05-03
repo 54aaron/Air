@@ -64,6 +64,11 @@
         max-width: 90%;
     }
 
+    .frame-end{
+        /* max-height: 80vh; */
+        max-width: 75%;
+    }
+
     #strip{
         text-align: center;
     }
