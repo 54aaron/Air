@@ -2,12 +2,12 @@
 
     .frame{
         /* max-height: 80vh; */
-        max-width: 80%;
+        max-width: 70%;
     }
 
     .frame-end{
         /* max-height: 80vh; */
-        max-width: 50%;
+        max-width: 45%;
     }
 
     #strip{
@@ -16,7 +16,7 @@
 
     .frame-box{
         display: inline-block;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         
     }
 
