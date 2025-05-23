@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Hanson";
+    src: url(Fonts/Hanson-Bold.otf);
+}
+
+@font-face {
+    font-family: "Comfortaa";
+    src: url(Fonts/Comfortaa-Regular.ttf);
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+body {
+    padding: 100px 10%;
+}
+
+#index-body {
+    background-color: #3E9FBA
+}
+
+#read-body {
+    background-color: #ffffff;
+}
+
+#main {
+    color: #3E9FBA;
+    display: grid;
+    grid-template-columns: .25fr 1fr;
+    column-gap: 20px;
+
+    .index {
+        color: #ffffff;
+    }
+}
+
+#menu {
+    position: sticky;
+    top: 100px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 50px 40px 40px 40px;
+    row-gap: 20px;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 24px;
+}
+
+.menu-item {
+    margin-top: 30px;
+}
+
+#air-logo {
+    font-family: 'Hanson', sans-serif;
+    font-size: 50px;
+
+}
+
+.frame {
+    /* max-height: 80vh; */
+    max-width: 90%;
+}
+
+.frame-index{
+    max-width: 100%;
+}
+
+.frame-end {
+    /* max-height: 80vh; */
+    max-width: 80%;
+}
+
+#strip {
+    text-align: center;
+}
+
+.frame-box {
+    display: inline-block;
+    margin-bottom: 40px;
+
+}
