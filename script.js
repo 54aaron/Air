@@ -23,24 +23,24 @@ function overlayStartUp() {
     setTimeout(function() {
         $("#currently-reading-loading-bar").hide();
         $("#currently-reading-loading-bar").css("marginLeft", "35%")
-    }, 500);
+    }, 250);
     
     setTimeout(function() {
         $("#currently-reading-loading-bar").show();
-    }, 1000); 
+    }, 500); 
 
     setTimeout(function() {
         $("#currently-reading-loading-bar").hide();
         $("#currently-reading-loading-bar").css("marginLeft", "65%")
-    }, 1500);
+    }, 750);
 
     setTimeout(function() {
         $("#currently-reading-loading-bar").show();
-    }, 2000);
+    }, 1000);
     
     setTimeout(function() {
         // $("#currently-reading-loading-bar").hide();
         $("#currently-reading").hide();
         $("#currently-reading-loading-bar").css("marginLeft", "0%")
-    }, 3000);
+    }, 2000);
 }

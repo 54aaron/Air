@@ -100,7 +100,7 @@ body {
 
 #currently-reading-loading-bar {
     width: 30%;
-    height: 30px;
+    height: 50px;
     background-color: #ffffff;
     margin-left: 0%;
     margin-top: 5%;
@@ -130,6 +130,6 @@ body {
     height: 100vh;
 }
 
-#info-box:hover {
+#info:hover {
     cursor: pointer;
 }
