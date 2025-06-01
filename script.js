@@ -6,6 +6,10 @@ $(document).ready(function() {
         $("#currently-reading").hide();
     })
 
+    $("#currently-reading").on("click", function() { 
+        $("#currently-reading").hide();
+    })
+
     $("#info").on("click", function() { 
         $("#currently-reading").show();
     })

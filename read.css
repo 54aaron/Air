@@ -122,14 +122,14 @@ body {
     font-size: 180px;
 }
 
-#info {
+#info-box {
     font-family: 'hanson', sans-serif;
     font-size: 36px;
     position: sticky;
-    top: 100px;
+    top: 110px;
     height: 100vh;
 }
 
-#info:hover {
+#info-box:hover {
     cursor: pointer;
 }
