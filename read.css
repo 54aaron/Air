@@ -102,7 +102,7 @@ body {
     width: 30%;
     height: 50px;
     background-color: #ffffff;
-    margin-left: 0%;
+    margin-left: 5%;
     margin-top: 5%;
 }
 
@@ -132,4 +132,41 @@ body {
 
 #info:hover {
     cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    #main {
+        color: #007C9E;
+        display: grid;
+        grid-template-columns: .05fr 1fr;
+        column-gap: 25px;
+    }
+
+    #info-box {
+        display: none;
+    }
+
+    #menu {
+        top: 100px;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 50px 40px 40px 40px;
+        row-gap: 10px;
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 20px;
+    }
+
+    .menu-item {
+        margin-top: 10px;
+    }
+
+    #air-logo {
+        font-family: 'Hanson', sans-serif;
+        font-size: 36px;
+    }
+
+    #currently-reading {
+        visibility: hidden;
+    }
+
 }
