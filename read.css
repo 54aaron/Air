@@ -18,7 +18,7 @@ body {
 }
 
 #index-body {
-    background-color: #3E9FBA
+    background-color: #007C9E
 }
 
 #read-body {
@@ -26,10 +26,10 @@ body {
 }
 
 #main {
-    color: #3E9FBA;
+    color: #007C9E;
     display: grid;
-    grid-template-columns: .25fr 1fr;
-    column-gap: 20px;
+    grid-template-columns: .10fr 1fr .05fr;
+    column-gap: 25px;
 
     .index {
         color: #ffffff;
@@ -62,7 +62,7 @@ body {
     max-width: 90%;
 }
 
-.frame-index{
+.frame-index {
     max-width: 80%;
 }
 
@@ -78,5 +78,58 @@ body {
 .frame-box {
     display: inline-block;
     margin-bottom: 40px;
+}
 
+#currently-reading-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background-color: aqua; */
+}
+
+#currently-reading {
+    background-color: #007C9E;
+    width: 50%;
+    position: fixed;
+    right: 10%;
+    height: 700px;
+    padding: 25px;
+}
+
+#currently-reading-loading-bar {
+    width: 30%;
+    height: 30px;
+    background-color: #ffffff;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+
+.currently-reading-text {
+    font-family: 'hanson', sans-serif;
+    color: #ffffff;
+    position: absolute;
+    bottom: 25px;
+}
+
+#currently-reading-text-1 {
+    font-size: 28px;
+    margin-left: 30px;
+}
+
+#currently-reading-text-2 {
+    font-size: 180px;
+}
+
+#info {
+    font-family: 'hanson', sans-serif;
+    font-size: 36px;
+    position: sticky;
+    top: 100px;
+    height: 100vh;
+}
+
+#info:hover {
+    cursor: pointer;
 }
