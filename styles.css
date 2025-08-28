@@ -20,6 +20,10 @@
         
     }
 
+    .frame-index{
+        width: 80%;
+    }
+
     #main{
         text-align: center;
     }
@@ -77,6 +81,10 @@
         display: inline-block;
         margin-bottom: 20px;
         
+    }
+
+    .frame-index{
+        width: 80%;
     }
 
     #main{
