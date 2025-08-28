@@ -161,6 +161,10 @@ body {
         margin-top: 10px;
     }
 
+    .frame-index {
+        max-width: 120%;
+    }
+
     #air-logo {
         font-family: 'Hanson', sans-serif;
         font-size: 36px;
