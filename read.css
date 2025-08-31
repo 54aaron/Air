@@ -13,6 +13,20 @@ a {
     text-decoration: inherit;
 }
 
+#about-title {
+    font-family: 'hanson', sans-serif;
+    color: #007C9E;
+    font-size: 248px;
+    margin-top: -80px;
+}
+
+.about-body {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 18px;
+    margin-top: -180px;
+    line-height: 1.8em;
+}
+
 body {
     padding: 100px 10%;
 }
@@ -155,6 +169,20 @@ body {
         row-gap: 10px;
         font-family: 'Comfortaa', sans-serif;
         font-size: 20px;
+    }
+
+    #about-title {
+        font-family: 'hanson', sans-serif;
+        color: #007C9E;
+        font-size: 48px;
+        margin-top: 0px;
+    }
+
+    .about-body {
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 18px;
+        margin-top: 0px;
+        line-height: 1.8em;
     }
 
     .menu-item {
